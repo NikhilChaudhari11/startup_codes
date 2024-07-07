@@ -1,1 +1,4 @@
 # Setting virtual environment
+
+#to activate an environment
+source .venv/bin/activate

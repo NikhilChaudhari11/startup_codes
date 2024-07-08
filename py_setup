@@ -2,3 +2,45 @@
 
 #to activate an environment
 source .venv/bin/activate
+
+###
+Github Commands
+###
+
+1)
+git branch
+
+~ This list all available branches
+
+2)
+git checkout main
+
+~ This goes to the main. Make sure you always do this
+
+3)
+git checkout -b WorkingBranch
+
+~ -b indicates that it is creating a new branch from main and naming it WorkingBranch (this is in CamelCase)
+
+4)
+git status
+
+~ This tells if there is any difference between the files in the local folder and the files in the WorkingBranch
+
+5)
+git add .
+OR
+git add anyfile.py
+
+~ This updates all files (if 'git add .' is used) from the local to WorkingBranch
+~ This updates one file (if 'git add anyfile.py' is used) from the local to WorkingBranch
+
+6)
+git commit -m "some message regarding the update: make it descriptive"
+
+~ This acts as "Save As" for WorkingBranch
+
+7)
+git push origin HEAD
+
+~ This pushes WorkingBranch to the gates of main. A pull request needs to be made from main to get these changes

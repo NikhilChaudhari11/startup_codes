@@ -48,4 +48,4 @@ git commit -m "some message regarding the update: make it descriptive"
 7)
 git push origin HEAD
 
-~ This pushes WorkingBranch to the gates of main. A pull request needs to be made from main to get these changes
+~ This pushes WorkingBranch to the gates of main. A "Pull-Request" needs to be made from main to get these changes

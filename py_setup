@@ -51,3 +51,15 @@ git push origin HEAD
 ~ This pushes workingBranch to the gates of main. A "Pull-Request" needs to be made from main to get these changes
 
 This is an excellent resource to learn branching: https://learngitbranching.js.org/
+
+----------- Merge & Rebasing -------------
+
+#Moving local file to Github Repo
+Create git in the working folder
+1. Go to github and manually create a repo
+2. Clone this repo
+cd 'goto the working folder'
+git init
+git add .
+git commit -m "Initial Commit"
+git push origin HEAD

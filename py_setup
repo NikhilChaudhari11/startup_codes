@@ -1,7 +1,12 @@
 # Setting virtual environment
+python -m venv name-of-virtual-env
 
 #to activate an environment
-source .venv/bin/activate
+source .venv/bin/activate or just ./Scripts/activate.bat will do
+
+#then start install required packages, create and go to the working folder in that virtual environment
+cd ...working_folder
+pip install pandas
 
 ###
 Github Commands
